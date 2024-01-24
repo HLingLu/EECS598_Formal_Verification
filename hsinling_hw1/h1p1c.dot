@@ -1,0 +1,52 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" x0 " -> " x1 " -> " x2 " -> " x3 " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"f"; }
+{ rank = same; " x0 ";
+"0x69a";
+}
+{ rank = same; " x1 ";
+"0x698";
+"0x699";
+}
+{ rank = same; " x2 ";
+"0x696";
+"0x697";
+"0x692";
+}
+{ rank = same; " x3 ";
+"0x68f";
+"0x68d";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "0x657";
+"0x656";
+}
+}
+"f" -> "0x69a" [style = solid];
+"0x69a" -> "0x698";
+"0x69a" -> "0x699" [style = dashed];
+"0x698" -> "0x696";
+"0x698" -> "0x697" [style = dashed];
+"0x699" -> "0x697";
+"0x699" -> "0x692" [style = dashed];
+"0x696" -> "0x657";
+"0x696" -> "0x68f" [style = dashed];
+"0x697" -> "0x68f";
+"0x697" -> "0x68d" [style = dashed];
+"0x692" -> "0x68d";
+"0x692" -> "0x657" [style = dashed];
+"0x68f" -> "0x657";
+"0x68f" -> "0x656" [style = dashed];
+"0x68d" -> "0x656";
+"0x68d" -> "0x657" [style = dashed];
+"0x657" [label = "0"];
+"0x656" [label = "1"];
+}
