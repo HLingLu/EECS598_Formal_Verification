@@ -1,0 +1,18 @@
+# h3p1C1: combinational circuit 1
+
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+INPUT(e)
+
+OUTPUT(x8)
+
+x1 = NAND(b, d)
+x2 = OR(b, d)
+x3 = NAND(a, x2)
+x4 = AND(c, e)
+x5 = NOR(c, e)
+x6 = NAND(x1, x3)
+x7 = NOR(x4, x6)
+x8 = NOR(x5, x7)

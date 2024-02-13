@@ -1,0 +1,16 @@
+# h2p2C2.isc: sequential circuit 2
+
+INPUT(x)
+
+OUTPUT(z1)
+OUTPUT(z2)
+
+s2 = OR(u2, v2)
+t2 = NOT(y4)
+u2 = AND(y3, y4)
+v2 = AND(y3, t2)
+y3 = DFF(x)
+y4 = DFF(s2)
+z1 = u2
+z2 = v2
+

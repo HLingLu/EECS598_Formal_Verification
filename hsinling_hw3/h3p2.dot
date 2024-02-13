@@ -1,0 +1,52 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" y1 " -> " y2 " -> " y3 " -> " y4 " -> " y5 " -> " y6 " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"c1_not_equiv_c2" -> "c1_not_equiv_c3" -> "c2_not_equiv_c3"; }
+{ rank = same; " y1 ";
+"0x3f74";
+}
+{ rank = same; " y2 ";
+"0x3f73";
+}
+{ rank = same; " y3 ";
+"0x3f78";
+}
+{ rank = same; " y4 ";
+"0x3f77";
+}
+{ rank = same; " y5 ";
+"0x3f72";
+}
+{ rank = same; " y6 ";
+"0x3f6d";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "0x3575";
+"0x3574";
+}
+}
+"c1_not_equiv_c2" -> "0x3575" [style = solid];
+"c1_not_equiv_c3" -> "0x3f74" [style = solid];
+"c2_not_equiv_c3" -> "0x3f78" [style = solid];
+"0x3f74" -> "0x3575";
+"0x3f74" -> "0x3f73" [style = dashed];
+"0x3f73" -> "0x3575";
+"0x3f73" -> "0x3f72" [style = dashed];
+"0x3f78" -> "0x3575";
+"0x3f78" -> "0x3f77" [style = dashed];
+"0x3f77" -> "0x3575";
+"0x3f77" -> "0x3f72" [style = dashed];
+"0x3f72" -> "0x3575";
+"0x3f72" -> "0x3f6d" [style = dashed];
+"0x3f6d" -> "0x3574";
+"0x3f6d" -> "0x3575" [style = dashed];
+"0x3575" [label = "0"];
+"0x3574" [label = "1"];
+}

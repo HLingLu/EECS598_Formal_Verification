@@ -1,0 +1,14 @@
+# h3p2C3.isc: sequential circuit 3
+
+INPUT(x)
+
+OUTPUT(z1)
+OUTPUT(z2)
+
+s3 = OR(y5, y6)
+t3 = AND(x, s3)
+u3 = NOT(t3)
+y5 = DFF(t3)
+y6 = DFF(u3)
+z1 = AND(x, y5)
+z2 = AND(x, y6)

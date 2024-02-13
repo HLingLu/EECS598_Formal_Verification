@@ -1,0 +1,20 @@
+# h3p1C2: combinational circuit 2
+
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+INPUT(e)
+
+OUTPUT(y10)
+
+y1 = AND(c, e)
+y2 = OR(c, e)
+y3 = AND(b, y2)
+y4 = AND(d, y2)
+y5 = OR(y1, y3)
+y6 = OR(y1, y4)
+y7 = AND(y5, y6)
+y8 = OR(y5, y6)
+y9 = AND(a, y8)
+y10 = NOR(y7, y9)
