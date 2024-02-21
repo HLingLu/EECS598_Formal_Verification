@@ -1,0 +1,32 @@
+c Proving Equivalence of CNF Formulas
+c Variable name-to-number mapping: h1=1, h2=2, t1=3, t2=4, l1=5,l2=6
+p cnf 6 16
+c A
+c -4 -5 0
+c -3 -6 0
+c B
+-1 -4 0
+-2 -3 0
+c C
+-2 -4 0
+-1 -3 0
+c D
+c -2 -5 0
+c -1 -6 0
+c E
+-1 -2 0
+c F
+1 -5 0
+2 -6 0
+c G
+c -3 -5 0
+c -4 -6 0
+c H
+-3 -4 0
+c I
+c -5 -6 0
+c J
+1 2 3 4 0
+
+
+

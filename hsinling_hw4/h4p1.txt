@@ -1,0 +1,1 @@
+The CNF formula is UNSAT. The two designs are equivalent.

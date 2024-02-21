@@ -1,0 +1,20 @@
+------- Solve f xor g -------
+f ^ g = f'g + fg'
+
+Solve f'g
+ Solver: Minisat22 solver
+ #Vars: 22
+ #Clauses: 60
+ f'g is unsatisfiable
+ Stats: {'restarts': 1, 'conflicts': 10, 'decisions': 24, 'propagations': 90}
+ Time: 6.3e-05s
+
+Solve fg'
+ Solver: Minisat22 solver
+ #Vars: 15
+ #Clauses: 46
+ fg' is unsatisfiable
+ Stats: {'restarts': 1, 'conflicts': 6, 'decisions': 15, 'propagations': 54}
+ Time: 2.6e-05s
+
+f and g are equivalent
