@@ -1,0 +1,43 @@
+---------------------
+WITHOUT PREPROCESSING
+---------------------
+
+------------
+Size Summary
+------------
+
+State variables (#2)
+	(3-bit)	1
+	(8-bit)	1
+
+Inputs (#1)
+	(1-bit)	1
+
+Constants (#4)
+	(1-bit)	1
+	(3-bit)	2
+	(8-bit)	1
+
+---------------
+State Variables
+---------------
+\Ckt1.Y                         (3-bit)
+\Ckt2.W                         (8-bit)
+
+------
+Inputs
+------
+\X                              (1-bit)
+
+---------
+Constants
+---------
+1'd1
+3'd7
+3'd0
+8'd128
+
+-----------------------------
+Uninterpreted Functions (UFs)
+-----------------------------
+

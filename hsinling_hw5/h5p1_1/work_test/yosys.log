@@ -1,0 +1,150 @@
+
+
+1. Executing Verilog-2005 frontend: h5p1_1/work_test/SeqEqvMiter.v
+Parsing SystemVerilog input from `h5p1_1/work_test/SeqEqvMiter.v' to AST representation.
+Generating RTLIL representation for module `\Miter'.
+Generating RTLIL representation for module `\Circuit1'.
+Generating RTLIL representation for module `\Circuit2'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Finding top of design hierarchy..
+root of   0 design levels: Circuit2            
+root of   0 design levels: Circuit1            
+root of   1 design levels: Miter               
+Automatically selected Miter as design top module.
+
+2.2. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+
+2.3. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+Removed 0 unused modules.
+Module Miter directly or indirectly contains formal properties -> setting "keep" attribute.
+Mapping positional arguments of cell Miter.Ckt2 (Circuit2).
+Mapping positional arguments of cell Miter.Ckt1 (Circuit1).
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+
+3.2. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+Removed 0 unused modules.
+Module Miter directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+
+4.2. Analyzing design hierarchy..
+Top module:  \Miter
+Used module:     \Circuit2
+Used module:     \Circuit1
+Removed 0 unused modules.
+Module Miter directly or indirectly contains formal properties -> setting "keep" attribute.
+Renaming module Miter to main.
+
+5. Executing EXPOSE pass (exposing internal signals as outputs).
+
+6. Executing PROC pass (convert processes to netlists).
+
+6.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+6.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+6.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 4 assignments to connections.
+
+6.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:25$33'.
+  Set init value: \Y = 3'000
+Found init rule in `\Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:47$195'.
+  Set init value: \W = 8'10000000
+
+6.5. Executing PROC_ARST pass (detect async resets in processes).
+
+6.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:25$33'.
+Creating decoders for process `\Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:33$31'.
+Creating decoders for process `\Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:47$195'.
+Creating decoders for process `\Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:60$194'.
+
+6.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+6.8. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\Circuit1.\Y' using process `\Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:33$31'.
+  created $dff cell `$procdff$196' with positive edge clock.
+Creating register for signal `\Circuit2.\W' using process `\Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:60$194'.
+  created $dff cell `$procdff$197' with positive edge clock.
+
+6.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:25$33'.
+Removing empty process `Circuit1.$proc$h5p1_1/work_test/SeqEqvMiter.v:33$31'.
+Removing empty process `Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:47$195'.
+Removing empty process `Circuit2.$proc$h5p1_1/work_test/SeqEqvMiter.v:60$194'.
+Cleaned up 0 empty switches.
+Removed 0 unused cells and 17 unused wires.
+
+7. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+8. Executing PMUXTREE pass.
+
+9. Executing MEMORY pass.
+
+9.1. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+9.2. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Circuit1..
+Finding unused cells or wires in module \Circuit2..
+Finding unused cells or wires in module \main..
+
+9.3. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Circuit1..
+Finding unused cells or wires in module \Circuit2..
+Finding unused cells or wires in module \main..
+
+9.5. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+9.6. Executing MEMORY_MAP pass (converting $mem cells to logic and flip-flops).
+
+10. Executing FLATTEN pass (flatten design).
+Using template Circuit1 for cells of type Circuit1.
+Using template Circuit2 for cells of type Circuit2.
+<suppressed ~2 debug messages>
+No more expansions possible.
+Deleting now unused module Circuit1.
+Deleting now unused module Circuit2.
+Removed 0 unused cells and 7 unused wires.
+
+11. Executing SETUNDEF pass (replace undef values with defined constants).
+
+12. Executing CHECK pass (checking for obvious problems).
+checking module main..
+found and reported 0 problems.
+
+13. Executing ILANG backend.
+Output filename: h5p1_1/work_test/test.ilang
+
+14. Executing Verilog backend.
+Dumping module `\main'.
+
+15. Executing BTOR backend.
