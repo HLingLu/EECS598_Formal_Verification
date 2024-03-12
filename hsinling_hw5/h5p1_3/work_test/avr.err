@@ -1,0 +1,11 @@
+	(property: all (1 assertions))
+	(problem size: 11 bits)
+	(abstraction: sa+uf)
+  0s	(bmc: safe till step 0)
+  0s	(bmc: safe till step 5)
+	(bmc: abstract mode disabled at step 6)
+	(bmc: found cex at step 6)
+   0	: 0	: 0 s: 0    0s                  
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           v        0.01          13           0

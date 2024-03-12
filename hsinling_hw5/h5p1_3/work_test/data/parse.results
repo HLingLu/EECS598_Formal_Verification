@@ -1,0 +1,81 @@
+------------
+Size Summary
+------------
+
+State variables (#11)
+	(1-bit)	11
+
+Inputs (#1)
+	(1-bit)	1
+
+Constants (#0)
+
+---------------
+State Variables
+---------------
+\Ckt2.W$8$[7:7]                 (1-bit)
+\Ckt2.W$8$[6:6]                 (1-bit)
+\Ckt2.W$8$[5:5]                 (1-bit)
+\Ckt2.W$8$[4:4]                 (1-bit)
+\Ckt2.W$8$[3:3]                 (1-bit)
+\Ckt2.W$8$[2:2]                 (1-bit)
+\Ckt2.W$8$[1:1]                 (1-bit)
+\Ckt2.W$8$[0:0]                 (1-bit)
+\Ckt1.Y$3$[2:2]                 (1-bit)
+\Ckt1.Y$3$[1:1]                 (1-bit)
+\Ckt1.Y$3$[0:0]                 (1-bit)
+
+------
+Inputs
+------
+\X                              (1-bit)
+
+---------
+Constants
+---------
+
+-----------------------------
+Uninterpreted Functions (UFs)
+-----------------------------
+
+------------------
+Initial Conditions
+------------------
+
+	!\Ckt1.Y$3$[0:0]
+	!\Ckt1.Y$3$[1:1]
+	!\Ckt1.Y$3$[2:2]
+	!\Ckt2.W$8$[0:0]
+	!\Ckt2.W$8$[1:1]
+	!\Ckt2.W$8$[2:2]
+	!\Ckt2.W$8$[3:3]
+	!\Ckt2.W$8$[4:4]
+	!\Ckt2.W$8$[5:5]
+	!\Ckt2.W$8$[6:6]
+	\Ckt2.W$8$[7:7]
+
+
+
+-----------------
+Dependency List
+-----------------
+
+Depth: 0
+	(1-bit) #4	n0	u0	c0	e0	property	<= \Ckt1.Y$3$[0:0], \Ckt1.Y$3$[1:1], \Ckt1.Y$3$[2:2], \Ckt2.W$8$[1:1], 
+
+Depth: 1
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[1:1]$next	<= \Ckt2.W$8$[0:0], \Ckt2.W$8$[2:2], \Ckt2.W$8$[3:3], \Ckt2.W$8$[4:4], \Ckt2.W$8$[5:5], \Ckt2.W$8$[6:6], \Ckt2.W$8$[7:7], 
+	(1-bit) #3	n0	u0	c0	e0	\Ckt1.Y$3$[2:2]$next	<= 
+	(1-bit) #2	n0	u0	c0	e0	\Ckt1.Y$3$[1:1]$next	<= 
+	(1-bit) #1	n0	u0	c0	e0	\Ckt1.Y$3$[0:0]$next	<= 
+
+Depth: 2
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[7:7]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[6:6]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[5:5]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[4:4]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[3:3]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[2:2]$next	<= 
+	(1-bit) #8	n0	u0	c0	e0	\Ckt2.W$8$[0:0]$next	<= 
+
+-----------------

@@ -1,0 +1,3 @@
+./SeqEqvMiter.v  ./
+	(warning: comparison of operands of different bit in cell $techmap\Ckt1.$eq$h5p1_2/work_test/SeqEqvMiter.v:37$32, zero extending)
+	(performing splitting nodes at extract points)

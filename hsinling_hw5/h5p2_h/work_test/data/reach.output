@@ -1,0 +1,301 @@
+Timeout: 3600, Memory_limit: 64000
+	10000.000000 (abstract query)
+	10000.000000 (concrete query)
+
+Config:
+	(concrete bit-width limit: 0)
+	(fineness: 2)
+	(interpret-ex-cc-level: 2)
+	(forward-check:	0)
+	(full projection)
+	(prioritization:	single)
+
+#STAT# num_bits= 0 num_regs= 2 num_total_bits= 7
+3  1
+4  1
+
+System
+  int : 105
+  bool : 139
+  sum : 244
+  bool_op : 108
+  int_op : 0
+    !  6
+    &&  17
+    ==  1
+    ==_int  22
+    ?:  5
+    ?:_int  40
+    ||  17
+
+
+Property
+  int : 37
+  bool : 40
+  sum : 77
+  bool_op : 33
+  int_op : 0
+    !  1
+    &&  3
+    ==  1
+    ==_int  10
+    ?:_int  13
+    ||  5
+
+Partial interpretation info:
+  depth: 0
+  count: 0
+  count (d=0): 0
+
+  depth (prop): 0
+  count (prop): 0
+  count (d=0) (prop): 0
+
+	# of Inst.                  : 328	(712 bytes each)
+	  ExInst::hm_ExInst.size()  : 0	(832 bytes each)
+	  SigInst::hm_SigInst.size(): 16	(752 bytes each)
+	  NumInst::hm_NumInst.size(): 24	(736 bytes each)
+	  OpInst::hm_OpInst.size()  : 90	(792 bytes each)
+	  OpInst::hm_ITEInst.size() : 58	(792 bytes each)
+	  OpInst::hm_ETCInst.size() : 5	(792 bytes each)
+	Total                       : 193
+
+	Memory (est.)               : 0.222717 MB
+	  ExInst                    : 0.000000 MB
+	  SigInst                   : 0.011475 MB
+	  NumInst                   : 0.016846 MB
+	  OpInst::OP                : 0.067978 MB
+	  OpInst::ITE               : 0.043808 MB
+	  OpInst::ETC               : 0.003777 MB
+
+	(maximum function composition in T: 0)
+
+---------------------------------------------------------------------------------------------
+ Reachability Analysis Begins
+---------------------------------------------------------------------------------------------
+Loop_FrameNumber_#ReachabilityIterations_#RefinementIterations
+---------------------------------------------------------------------------------------------
+Loop_0_0_0
+---------------------------------------------------------------------------------------------
+[Basis Step]:
+	F[0] = I
+	SAT_a ? [ F[0] && !P ]: UNSAT
+
+[First Step]:
+	SAT_a ? [ F[0] & T & !P ]: UNSAT
+
+[RES_1]       0	: 0	: 0 s: 0
+[RES_0]    L  0 : 0 s: 0, mem: 13, time: 0.008502
+[RES_1]       0	: 1	: 0 0 s: 0
+[RES_0]    L  1 : 0 0 s: 0, mem: 13, time: 0.008636
+---------------------------------------------------------------------------------------------
+Loop_1_0_0
+---------------------------------------------------------------------------------------------
+	F[1] = P
+	SAT_a ? [ F[1] & T & !P+ ]: UNSAT
+[RES_1]       0	: 1	: 0 0 s: 0
+[RES_0]    L  1 : 0 0 s: 0, mem: 13, time: 0.008973
+	[Forward propagation]:
+		Property holds
+[RES_1]       0	: 1	: 0 0 s: 0
+[RES_0]    L  1 : 0 0 s: 0, mem: 13, time: 0.009129
+
+-----------
+Refinements
+-----------
+-----------
+[RES_0]    refinement-lemmas-check successful!
+F[0]	c#0
+F[1]	c#0
+F[2]	c#0
+
+
+[RES_0]    reachability-lemmas-check successful!
+[RES_0]    initial-state-check successful!
+[RES_0]    property-check successful!
+[RES_0]    inductive-invariant-check successful!
+ s: 0, mem: 14, time: 0.01
+Frames explored (0 datapath refinements) : 
+
+CEXT lengths (0 feasibility checks) : 
+
+DP lemmas (0 feasibility checks) : 
+
+Block= 0 BlockT= 1 BlockS= 0 BlockU= 1 Oblig= 0 ObligT= 0 ObligS= 0 ObligU= 0 FPT= 0 FPS= 0 FPU= 0 CallT= 7 CallS= 1 CallU= 6 MUST= 0 MUSS= 0 MUSU= 0 sMUST= 0 sMUSS= 0 sMUSU= 0 dMUST= 0 dMUSS= 0 dMUSU= 0 rMUST= 0 rMUSS= 0 rMUSU= 0 All_clauses= 0 All_literals= 0 Clauses= 0 Literals= 0 DPLemmas= 0 DPrefsNoDPL= 0 DPRefs= 0
+
+pme_fail: 0, pme_succ: 0, lit_before: 0, lit_after: 0
+coi_before: 0, coi_after: 0
+mus_before: 0 mus_lit: 0 mus_cls: 0 mus_cnt: 0
+S+M	Call = 7 (sat=1, 14.29%)
+SAT	Call = 7 (sat=1, 14.29%)
+MUS	Call = 0 (sat=0, -nan%)
+
+Detailed Stats:
+
+  (reachability)
+	#Frame Restrictions:	0
+	#TB                :	0
+	#cubes-subsumed    :	0
+	#context reset     :	0
+	#Y2 reset          :	0
+	#frame solver reset:	1
+	avg-sz-frame-restriction:  	0.00
+
+	avg-sz-ab-cube:  	0.00
+		%t1-ab-cube:   	0.00%	[sel: 0.00% ]
+		%t2-ab-cube:   	0.00%	[sel: 0.00% ]
+		%t3-ab-cube:   	0.00%	[sel: 0.00% ]
+		%t4-ab-cube:   	0.00%	[sel: 0.00% ]
+
+		ab-cube info:	
+			s == s:	0.00%	[sel: 0.00% ]
+			s == n:	0.00%	[sel: 0.00% ]
+			s == o:	0.00%	[sel: 0.00% ]
+			n == o:	0.00%	[sel: 0.00% ]
+			o == o:	0.00%	[sel: 0.00% ]
+			s != s:	0.00%	[sel: 0.00% ]
+			s != n:	0.00%	[sel: 0.00% ]
+			s != o:	0.00%	[sel: 0.00% ]
+			n != o:	0.00%	[sel: 0.00% ]
+			o != o:	0.00%	[sel: 0.00% ]
+			s bool:	0.00%	[sel: 0.00% ]
+			up    :	0.00%	[sel: 0.00% ]
+			oth   :	0.00%	[sel: 0.00% ]
+
+		%coi-ab-cube  :	0.00%	[sel: 0.00% ]
+			s (==):	0.00%	[sel: 0.00% ]
+			s (!=):	0.00%	[sel: 0.00% ]
+			n (==):	0.00%	[sel: 0.00% ]
+			n (!=):	0.00%	[sel: 0.00% ]
+			other :	0.00%	[sel: 0.00% ]
+		%pred-ab-cube :	0.00%	[sel: 0.00% ]
+		%fproj-ab-cube:	0.00%	[sel: 0.00% ]
+			s (==):	0.00%	[sel: 0.00% ]
+			s (!=):	0.00%	[sel: 0.00% ]
+			n (==):	0.00%	[sel: 0.00% ]
+			n (!=):	0.00%	[sel: 0.00% ]
+		%proj-ab-cube :	0.00%	[sel: 0.00% ]
+			s (==):	0.00%	[sel: 0.00% ]
+			s (!=):	0.00%	[sel: 0.00% ]
+			n (==):	0.00%	[sel: 0.00% ]
+			n (!=):	0.00%	[sel: 0.00% ]
+		%subs-ab-cube :	0.00%	[sel: 0.00% ]
+	avg-#sv-ab-cube:  	0.00
+	avg-tsb-ab-cube:  	0.00
+	relevancy:       	0.00%
+
+	avg-sz-cc-cube:  	0.00
+		%coi-cc-cube  :	0.00%
+		%pred-cc-cube :	0.00%
+		%fproj-cc-cube:	0.00%
+			s (==):	0.00%
+			s (!=):	0.00%
+			n (==):	0.00%
+			n (!=):	0.00%
+		%proj-cc-cube :	0.00%
+			s (==):	0.00%
+			s (!=):	0.00%
+			n (==):	0.00%
+			n (!=):	0.00%
+
+	tb_cube_time:     	0.00 (0.00%)
+		cube_eval_time: 	0.00 (0.00%)
+		cube_pred_time: 	0.00 (0.00%)
+		cube_fproj_time:	0.00 (0.00%)
+		cube_proj_time: 	0.00 (0.00%)
+		cube _subs_time:	0.00 (0.00%)
+		sum:            	0.00 (0.00% of tb_cube_time)
+
+	tb_ct_time:      	0.00 (0.00%)
+		ct isblocked_time:  	0.00 (0.00%)
+		ct isinitial_time:  	0.00 (0.00%)
+		ct containment_time:	0.00 (0.00%)
+		ct fastforward_time:	0.00 (0.00%)
+		sum:                	0.00 (0.00% of tb_ct_time)
+
+	setcontain_time:	0.00 (0.00%)
+
+	updatesolver_time:	0.00 (0.00%)
+
+	tb_time:	0.00 (0.00%)
+		tb_reach_time:    	0.00 (0.00%)
+		tb_val_time:    	0.00 (0.00%) [ cti_val_time: 0.00 (0.00%) ]
+		tb_cube_time:      	0.00 (0.00%)
+		tb_mus_time:      	0.00 (0.00%)
+			tb_mus_core_time:      	0.00 (0.00%)
+			tb_mus_min_time:      	0.00 (0.00%)
+		tb_ct_time:       	0.00 (0.00%)
+		tb_extra_time:    	0.00 (0.00%)
+		sum:           	0.00 (0.00% of tb_time)
+
+
+  (refinement)
+	sim_time:		0.00 (0.00%) 	 [-nan% of dpr_time]
+
+  pre_time:	0.01 (47.80%)
+  cti_time:	0.00 (5.75%)	[cti_i_time:	0.00 (0.82%) ]
+  tb_time:	0.00 (0.00%)
+  fp_time:	0.00 (0.08%)	[fp_extra_time:	0.00 (0.00%) ]
+  refine_time:	0.00 (0.00%)
+  sol_set_time:	0.00 (2.57%)
+  inv_time:	0.00 (21.00%)	[induct_time:	0.00 (0.00%) ]
+  draw_time:	0.00 (0.00%)
+  sum:		0.01 (77.21%)
+
+  extra_time:	0.00 (0.00%)
+
+  timeout_time:	0.00 (0.00%)
+
+[simplified] 0 (ex), 0 (cc), 0 (ot)
+
+===     HOLD     ===
+
+Averroes finished.
+
+br-#mus           0           
+        hard        soft         out           
+           
+        0.00        0.00        0.00               (br-core)           
+        0.00        0.00        0.00                (br-min)          
+
+         sat       unsat           
+                                          #Calls           
+           0           0   (br-core)           
+           0           0  (br-core2)           
+           0           0    (br-min)           
+                                      Time (sec)           
+        0.00        0.00   (br-core)           
+        0.00        0.00  (br-core2)           
+        0.00        0.00    (br-min)           
+                                    Avg. Time (microsec)           
+           0           0   (br-core)           
+           0           0  (br-core2)           
+           0           0    (br-min)           
+                                    Max Time (microsec)           
+           0           0   (br-core)           
+           0           0  (br-core2)           
+           0           0    (br-min)          
+
+                      ab                      bv           
+         sat       unsat         sat       unsat           
+                                                      #Calls           
+           1           6           0           0   (oneshot)           
+           0           0           0           0       (inc)           
+           0           0           0           0    (assume)           
+                       0                       0   (timeout)          
+
+                                                  Time (sec)           
+        0.00        0.00        0.00        0.00   (oneshot)           
+        0.00        0.00        0.00        0.00       (inc)           
+        0.00        0.00        0.00        0.00    (assume)           
+                    0.00                    0.00   (timeout)          
+
+                                                Avg. Time (microsec)
+           8          29           0           0   (oneshot)           
+           0           0           0           0       (inc)           
+           0           0           0           0    (assume)           
+                       0                       0   (timeout)           
+           
+      Result        Time        Mem.       #Refs           
+                     sec          MB                       
+           h        0.01          14           0

@@ -1,0 +1,237 @@
+
+
+1. Executing Verilog-2005 frontend: h5p2_v/work_test/TLC.v
+Parsing SystemVerilog input from `h5p2_v/work_test/TLC.v' to AST representation.
+Generating RTLIL representation for module `\TLC'.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:40.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:42.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:44.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:46.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:49.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:51.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:53.
+Warning: wire '\Next_Stata' is assigned in a block at h5p2_v/work_test/TLC.v:55.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:57.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:59.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:62.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:64.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:67.
+Warning: wire '\Next_State' is assigned in a block at h5p2_v/work_test/TLC.v:69.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:86.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:87.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:88.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:89.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:95.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:96.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:97.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:98.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:104.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:105.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:106.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:107.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:113.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:114.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:115.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:116.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:122.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:123.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:124.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:125.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:131.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:132.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:133.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:134.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:140.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:141.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:143.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:144.
+Warning: wire '\ETL' is assigned in a block at h5p2_v/work_test/TLC.v:150.
+Warning: wire '\NLTL' is assigned in a block at h5p2_v/work_test/TLC.v:151.
+Warning: wire '\ELTL' is assigned in a block at h5p2_v/work_test/TLC.v:152.
+Warning: wire '\WTL' is assigned in a block at h5p2_v/work_test/TLC.v:153.
+h5p2_v/work_test/TLC.v:55: Warning: Identifier `\Next_Stata' is implicitly declared.
+Generating RTLIL representation for module `\Timer'.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:202.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:203.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:204.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:205.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:206.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:207.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:208.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:209.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:210.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:211.
+Warning: wire '\Q_Next' is assigned in a block at h5p2_v/work_test/TLC.v:212.
+Note: Assuming pure combinatorial block at h5p2_v/work_test/TLC.v:199 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Finding top of design hierarchy..
+root of   0 design levels: Timer               
+root of   1 design levels: TLC                 
+Automatically selected TLC as design top module.
+
+2.2. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+
+2.3. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+Removed 0 unused modules.
+Module TLC directly or indirectly contains formal properties -> setting "keep" attribute.
+Mapping positional arguments of cell TLC.T (Timer).
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+
+3.2. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+Removed 0 unused modules.
+Module TLC directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+
+4.2. Analyzing design hierarchy..
+Top module:  \TLC
+Used module:     \Timer
+Removed 0 unused modules.
+Module TLC directly or indirectly contains formal properties -> setting "keep" attribute.
+Renaming module TLC to main.
+
+5. Executing EXPOSE pass (exposing internal signals as outputs).
+
+6. Executing PROC pass (convert processes to netlists).
+
+6.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+6.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$h5p2_v/work_test/TLC.v:81$31 in module main.
+Marked 1 switch rules as full_case in process $proc$h5p2_v/work_test/TLC.v:74$30 in module main.
+Removed 1 dead cases from process $proc$h5p2_v/work_test/TLC.v:36$8 in module main.
+Marked 7 switch rules as full_case in process $proc$h5p2_v/work_test/TLC.v:36$8 in module main.
+Marked 1 switch rules as full_case in process $proc$h5p2_v/work_test/TLC.v:217$47 in module Timer.
+Marked 1 switch rules as full_case in process $proc$h5p2_v/work_test/TLC.v:199$46 in module Timer.
+Removed a total of 1 dead cases.
+
+6.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 4 redundant assignments.
+Promoted 4 assignments to connections.
+
+6.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\main.$proc$h5p2_v/work_test/TLC.v:31$45'.
+  Set init value: \State = 3'000
+Found init rule in `\Timer.$proc$h5p2_v/work_test/TLC.v:196$49'.
+  Set init value: \Q = 4'1010
+
+6.5. Executing PROC_ARST pass (detect async resets in processes).
+
+6.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\main.$proc$h5p2_v/work_test/TLC.v:31$45'.
+Creating decoders for process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+     1/5: $0\StartTimer[0:0]
+     2/5: $0\WTL[6:0]
+     3/5: $0\ELTL[6:0]
+     4/5: $0\NLTL[6:0]
+     5/5: $0\ETL[6:0]
+Creating decoders for process `\main.$proc$h5p2_v/work_test/TLC.v:74$30'.
+     1/1: $0\State[2:0]
+Creating decoders for process `\main.$proc$h5p2_v/work_test/TLC.v:36$8'.
+     1/5: $4\Next_State[2:0]
+     2/5: $0\Next_Stata[0:0]
+     3/5: $3\Next_State[2:0]
+     4/5: $2\Next_State[2:0]
+     5/5: $1\Next_State[2:0]
+Creating decoders for process `\Timer.$proc$h5p2_v/work_test/TLC.v:196$49'.
+Creating decoders for process `\Timer.$proc$h5p2_v/work_test/TLC.v:217$47'.
+     1/1: $0\Q[3:0]
+Creating decoders for process `\Timer.$proc$h5p2_v/work_test/TLC.v:199$46'.
+     1/1: $1\Q_Next[3:0]
+
+6.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\main.\ETL' from process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+No latch inferred for signal `\main.\NLTL' from process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+No latch inferred for signal `\main.\ELTL' from process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+No latch inferred for signal `\main.\WTL' from process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+No latch inferred for signal `\main.\StartTimer' from process `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+No latch inferred for signal `\main.\Next_State' from process `\main.$proc$h5p2_v/work_test/TLC.v:36$8'.
+No latch inferred for signal `\main.\Next_Stata' from process `\main.$proc$h5p2_v/work_test/TLC.v:36$8'.
+No latch inferred for signal `\Timer.\Q_Next' from process `\Timer.$proc$h5p2_v/work_test/TLC.v:199$46'.
+
+6.8. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\main.\State' using process `\main.$proc$h5p2_v/work_test/TLC.v:74$30'.
+  created $dff cell `$procdff$166' with positive edge clock.
+Creating register for signal `\Timer.\Q' using process `\Timer.$proc$h5p2_v/work_test/TLC.v:217$47'.
+  created $dff cell `$procdff$167' with negative edge clock.
+
+6.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `main.$proc$h5p2_v/work_test/TLC.v:31$45'.
+Found and cleaned up 1 empty switch in `\main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+Removing empty process `main.$proc$h5p2_v/work_test/TLC.v:81$31'.
+Found and cleaned up 1 empty switch in `\main.$proc$h5p2_v/work_test/TLC.v:74$30'.
+Removing empty process `main.$proc$h5p2_v/work_test/TLC.v:74$30'.
+Found and cleaned up 7 empty switches in `\main.$proc$h5p2_v/work_test/TLC.v:36$8'.
+Removing empty process `main.$proc$h5p2_v/work_test/TLC.v:36$8'.
+Removing empty process `Timer.$proc$h5p2_v/work_test/TLC.v:196$49'.
+Found and cleaned up 1 empty switch in `\Timer.$proc$h5p2_v/work_test/TLC.v:217$47'.
+Removing empty process `Timer.$proc$h5p2_v/work_test/TLC.v:217$47'.
+Found and cleaned up 1 empty switch in `\Timer.$proc$h5p2_v/work_test/TLC.v:199$46'.
+Removing empty process `Timer.$proc$h5p2_v/work_test/TLC.v:199$46'.
+Cleaned up 11 empty switches.
+Removed 11 unused cells and 48 unused wires.
+
+7. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+8. Executing PMUXTREE pass.
+Removed 6 unused cells and 12 unused wires.
+
+9. Executing MEMORY pass.
+
+9.1. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+9.2. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Timer..
+Finding unused cells or wires in module \main..
+
+9.3. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Timer..
+Finding unused cells or wires in module \main..
+
+9.5. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+9.6. Executing MEMORY_MAP pass (converting $mem cells to logic and flip-flops).
+
+10. Executing FLATTEN pass (flatten design).
+Using template Timer for cells of type Timer.
+<suppressed ~1 debug messages>
+No more expansions possible.
+Deleting now unused module Timer.
+Removed 0 unused cells and 5 unused wires.
+
+11. Executing SETUNDEF pass (replace undef values with defined constants).
+
+12. Executing CHECK pass (checking for obvious problems).
+checking module main..
+found and reported 0 problems.
+
+13. Executing ILANG backend.
+Output filename: h5p2_v/work_test/test.ilang
+
+14. Executing Verilog backend.
+Dumping module `\main'.
+
+15. Executing BTOR backend.

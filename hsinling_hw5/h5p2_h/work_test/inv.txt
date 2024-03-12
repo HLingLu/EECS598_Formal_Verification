@@ -1,0 +1,11 @@
+Property (P): (sz: 1)
+		!(\collision)
+
+Inductive Invariants (i.e. (Inv -> P) and (Inv ^ T ^ !Inv+) is UNSAT): #1
+(sz: 1)
+		property
+	[1]: 
+Axioms (refinements): #0
+
+(max frame explored)    F[1]
+(frame converged)       F[1]
