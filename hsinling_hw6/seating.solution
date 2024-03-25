@@ -1,0 +1,49 @@
+sat
+(
+  (define-fun C () Int
+    1)
+  (define-fun M () Int
+    2)
+  (define-fun P () Int
+    3)
+  (define-fun J () Int
+    0)
+)
+JCMP
+sat
+(
+  (define-fun C () Int
+    0)
+  (define-fun M () Int
+    1)
+  (define-fun P () Int
+    2)
+  (define-fun J () Int
+    3)
+)
+CMPJ
+sat
+(
+  (define-fun C () Int
+    3)
+  (define-fun M () Int
+    0)
+  (define-fun P () Int
+    1)
+  (define-fun J () Int
+    2)
+)
+MPJC
+sat
+(
+  (define-fun C () Int
+    2)
+  (define-fun M () Int
+    3)
+  (define-fun P () Int
+    0)
+  (define-fun J () Int
+    1)
+)
+PJCM
+unsat
