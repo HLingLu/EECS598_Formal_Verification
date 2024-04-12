@@ -1,0 +1,100 @@
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_132.cnf ------------
+ #Vars: 2580
+ #Clauses: 6999
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 462, 'conflicts': 9075, 'decisions': 21590, 'propagations': 1671780}
+ Time: 0.195733s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_133.cnf ------------
+ #Vars: 2688
+ #Clauses: 7298
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 505, 'conflicts': 9611, 'decisions': 23065, 'propagations': 1703493}
+ Time: 0.212261s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_134.cnf ------------
+ #Vars: 2811
+ #Clauses: 7642
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 365, 'conflicts': 9648, 'decisions': 23053, 'propagations': 1334422}
+ Time: 0.184344s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_135.cnf ------------
+ #Vars: 2916
+ #Clauses: 7932
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 424, 'conflicts': 9814, 'decisions': 23038, 'propagations': 1399131}
+ Time: 0.185284s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_136.cnf ------------
+ #Vars: 3018
+ #Clauses: 8213
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 380, 'conflicts': 10284, 'decisions': 25131, 'propagations': 1499762}
+ Time: 0.19741s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_137.cnf ------------
+ #Vars: 3102
+ #Clauses: 8440
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 485, 'conflicts': 12231, 'decisions': 28516, 'propagations': 1585604}
+ Time: 0.228534s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_138.cnf ------------
+ #Vars: 3186
+ #Clauses: 8667
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 529, 'conflicts': 13076, 'decisions': 31583, 'propagations': 2166873}
+ Time: 0.288753s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_139.cnf ------------
+ #Vars: 3261
+ #Clauses: 8867
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 481, 'conflicts': 10805, 'decisions': 28484, 'propagations': 1554428}
+ Time: 0.203887s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_140.cnf ------------
+ #Vars: 3369
+ #Clauses: 9166
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 346, 'conflicts': 12557, 'decisions': 30019, 'propagations': 1696294}
+ Time: 0.240093s
+
+
+ Solver: CaDiCal solver
+------------ cnf_files/fdmus_b14_141.cnf ------------
+ #Vars: 3534
+ #Clauses: 9636
+ The formula is unsatisfiable.
+ Model: None
+ Stats: {'restarts': 298, 'conflicts': 12090, 'decisions': 27294, 'propagations': 1951766}
+ Time: 0.248326s
+
+

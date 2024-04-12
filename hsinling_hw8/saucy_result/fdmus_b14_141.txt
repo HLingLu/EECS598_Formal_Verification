@@ -1,0 +1,16 @@
+input file = shatter_cnf/fdmus_b14_141.cnf
+variables = 3716
+clauses = 10348
+non-binary clauses = 3659
+literals = 24663
+vertices = 11091
+edges = 21690
+group size = 2.000000e0
+levels = 2
+nodes = 3
+generators = 1
+total support = 6
+average support = 6.00
+nodes per generator = 3.00
+bad nodes = 0
+cpu time (s) = 0.00

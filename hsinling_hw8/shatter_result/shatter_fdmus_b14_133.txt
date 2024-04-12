@@ -1,0 +1,21 @@
+----------- formula info ----------
+input file = cnf_files/fdmus_b14_133.cnf
+variables = 2688
+clauses = 7304
+non-binary clauses = 2238
+literals = 16834
+-------- symmetry discovery -------
+vertices = 7614
+edges = 14456
+group size = 3.072000e3
+nodes = 37
+generators = 10
+bad nodes = 0
+discovery time (s) = 0.00
+----------- shatter info ----------
+symmetry breaking clauses = 684
+additional variables = 176
+additional literals = 2354
+consistency violations = 0
+SBP generation time (s) = 0.00
+total time (s) = 0.00

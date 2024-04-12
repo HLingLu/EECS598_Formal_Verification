@@ -1,0 +1,180 @@
+Running cnf_files/fdmus_b14_132.cnf
+input file = cnf_files/fdmus_b14_132.cnf
+variables = 2580
+clauses = 7005
+non-binary clauses = 2145
+literals = 16143
+vertices = 7305
+edges = 13863
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_133.cnf
+input file = cnf_files/fdmus_b14_133.cnf
+variables = 2688
+clauses = 7304
+non-binary clauses = 2238
+literals = 16834
+vertices = 7614
+edges = 14456
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_134.cnf
+input file = cnf_files/fdmus_b14_134.cnf
+variables = 2811
+clauses = 7648
+non-binary clauses = 2346
+literals = 17630
+vertices = 7968
+edges = 15139
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_135.cnf
+input file = cnf_files/fdmus_b14_135.cnf
+variables = 2916
+clauses = 7938
+non-binary clauses = 2436
+literals = 18300
+vertices = 8268
+edges = 15714
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_136.cnf
+input file = cnf_files/fdmus_b14_136.cnf
+variables = 3018
+clauses = 8219
+non-binary clauses = 2523
+literals = 18949
+vertices = 8559
+edges = 16271
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_137.cnf
+input file = cnf_files/fdmus_b14_137.cnf
+variables = 3102
+clauses = 8446
+non-binary clauses = 2592
+literals = 19472
+vertices = 8796
+edges = 16720
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_138.cnf
+input file = cnf_files/fdmus_b14_138.cnf
+variables = 3186
+clauses = 8673
+non-binary clauses = 2661
+literals = 19995
+vertices = 9033
+edges = 17169
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_139.cnf
+input file = cnf_files/fdmus_b14_139.cnf
+variables = 3261
+clauses = 8873
+non-binary clauses = 2721
+literals = 20455
+vertices = 9243
+edges = 17564
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_140.cnf
+input file = cnf_files/fdmus_b14_140.cnf
+variables = 3369
+clauses = 9172
+non-binary clauses = 2814
+literals = 21146
+vertices = 9552
+edges = 18157
+group size = 3.072000e3
+levels = 11
+nodes = 37
+generators = 10
+total support = 924
+average support = 92.40
+nodes per generator = 3.70
+bad nodes = 0
+cpu time (s) = 0.00
+
+Running cnf_files/fdmus_b14_141.cnf
+input file = cnf_files/fdmus_b14_141.cnf
+variables = 3534
+clauses = 9642
+non-binary clauses = 2964
+literals = 22236
+vertices = 10032
+edges = 19092
+group size = 3.072000e3
+levels = 12
+nodes = 41
+generators = 11
+total support = 954
+average support = 86.73
+nodes per generator = 3.73
+bad nodes = 0
+cpu time (s) = 0.00
+
